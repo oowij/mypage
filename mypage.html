@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's jyuuu page!!</title>
+    <!--스타일-->
+    <style>
+      #container {
+        width: 100%;
+        height: 100vh;
+        overflow: auto;
+      }
+      .menu * {
+        display: inline;
+      }
+      .menu {
+        font-size: 20px;
+        font-style: italic;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+      }
+      .menu ul {
+        padding-left: 0px;
+      }
+      .menu li {
+        margin: 35px;
+      }
+      .menu li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: none;
+      }
+      .list {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: center;
+      }
+      .list:nth-child(2) {
+        background-color: #a5ecd4;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .list:nth-child(3) {
+        background-color: #a6c8f0;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .list:nth-child(4) {
+        background-color: #b8bbdb;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .list:nth-child(5) {
+        background-color: #dec1df;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      #one {
+        background-size: cover;
+        text-align: center;
+        padding-top: 180px;
+        padding-bottom: 130px;
+      }
+      .profile {
+        border-radius: 30%;
+        display: inline-block;
+        padding: 0.5rem;
+        margin-top: 20px;
+        border: 1px solid gray;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgb(255, 255, 255, 0.5);
+      }
+      .profile img {
+        border-radius: 30%;
+      }
+      h3 {
+        font-family: "Pretendard-Thin";
+        color: #ffffff;
+        text-align: center;
+        font-style: italic;
+        font-weight: lighter;
+        margin-top: 50px;
+        font-size: 20px;
+      }
+      .intext {
+        float: right;
+        margin-top: 35px;
+        padding-left: 50px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .favorites {
+        display: inline-flex;
+        margin-top: 60px;
+      }
+      .lists {
+        text-align: center;
+        font-family: "Pretendard-Thin";
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-family: "Pretendard-Thin";
+        font-size: 18px;
+        line-height: 1.5;
+        font-style: italic;
+      }
+      .list_img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 7vh 5vh;
+        margin-bottom: 50px;
+      }
+      #four {
+        text-align: center;
+        align-items: center;
+      }
+      .contacts {
+        display: inline-flex;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <nav class="menu">
+          <ul>
+            <li><a href="#one">HOME</a></li>
+            <li><a href="#two">ABOUT ME</a></li>
+            <li><a href="#three">LIKE</a></li>
+            <li><a href="#four">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="list">
+        <div id="one">
+          <span class="profile">
+            <img src="myphoto.jpg" width="550px" height="550px" alt />
+          </span>
+          <h3>
+            <strong>
+              <font style="vertical-align: inherit">
+                <font style="vertical-align: inherit"> 안녕하세요! </font>
+              </font>
+            </strong>
+            <br />
+            <font style="vertical-align: inherit">
+              <font style="vertical-align: inherit">
+                저는 서지우입니다 <strong>:)</strong>
+              </font>
+            </font>
+          </h3>
+        </div>
+      </div>
+      <div class="list">
+        <div id="two">
+          <img class="me" src="myimage.jpg" alt width="450px" height="500px" />
+          <h3 class="intext">
+            <strong>
+              <font style="vertical-align: inherit">
+                <font style="vertical-align: inherit">
+                  저에 대해 소개해볼게요!!
+                </font>
+              </font>
+            </strong>
+            <br />
+            <br />
+            <font style="vertical-align: inherit">
+              <font style="vertical-align: inherit">
+                저의 홈페이지 오신 걸 환영합니다!
+              </font>
+            </font>
+            <br />
+            <font style="vertical-align: inherit">
+              <font style="vertical-align: inherit">
+                저는 부산시 사하구 다대포에서 자고 나랐습니다.
+              </font>
+            </font>
+            <br />
+            <font style="vertical-align: inherit">
+              <font style="vertical-align: inherit">
+                동의대학교 e비즈니스학과 17학번이고
+              </font>
+              <br />
+              <font style="vertical-align: inherit">
+                현재 자바기반 IoT 융합서비스개발자 과정을 듣고 있습니다.
+              </font>
+            </font>
+            <br />
+            <font style="vertical-align: inherit">
+              <font style="vertical-align: inherit">
+                정확한 목표는 아직 정해지지 않았지만
+              </font>
+              <br />
+              <font style="vertical-align: inherit">
+                차근차근 프로그래밍언어를 배워가면 나아가려고 노력중입니다.
+              </font>
+            </font>
+            <br />
+            <br />
+            <strong>
+              <font style="vertical-align: inherit">
+                <font style="vertical-align: inherit"> 저의 가치관은!! </font>
+              </font>
+            </strong>
+            <br />
+            <font style="vertical-align: inherit">
+              <font style="vertical-align: inherit">
+                후회하지 말고 최선을 다해보자.
+              </font>
+            </font>
+            <br />
+            <br />
+            <strong>
+              <font style="vertical-align: inherit">
+                <font style="vertical-align: inherit">
+                  앞으로의 저를 기대해주세요!!
+                </font>
+              </font>
+            </strong>
+            <br />
+          </h3>
+        </div>
+      </div>
+      <div class="list">
+        <div id="three">
+          <h1>
+            <br />
+            <br />
+            <font style="vertical-align: inherit">
+              <font style="vertical-align: inherit"> ♥♡♥♡ </font>
+            </font>
+          </h1>
+          <div class="favorites">
+            <div class="lists">
+              <img class="list_img" src="puppy.jpg" alt />
+              <p class="list_text">우리 만두 카누<br />(모든 강아지)</p>
+            </div>
+            <div class="lists">
+              <img class="list_img" src="activity.jpg" alt />
+              <p class="list_text">
+                <font style="vertical-align: inherit">
+                  <font style="vertical-align: inherit">활동적인 것들</font>
+                </font>
+              </p>
+            </div>
+            <div class="lists">
+              <img class="list_img" src="movie.jpg" alt />
+              <p class="list_text">
+                <font style="vertical-align: inherit">
+                  <font style="vertical-align: inherit">영화보기</font>
+                </font>
+              </p>
+            </div>
+            <div class="lists">
+              <img class="list_img" src="sea.jpg" alt />
+              <p class="list_text">
+                <font style="vertical-align: inherit">
+                  <font style="vertical-align: inherit">여행하기</font>
+                </font>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <div id="four">
+          <div class="contacts">
+            <div class="lists">
+              <a
+                href="https://instagram.com/o_oowij?igshid=NTdlMDg3MTY="
+                target="_blank"
+              >
+                <img class="list_img" src="instagram.png" alt />
+              </a>
+              <p class="list_text">
+                <font style="vertical-align: inherit">
+                  <font style="vertical-align: inherit">Instagram</font>
+                </font>
+              </p>
+            </div>
+            <div class="lists">
+              <a href="https://velog.io/@jyuuu" target="_blank">
+                <img class="list_img" src="velog.png" alt />
+              </a>
+              <p class="list_text">
+                <font style="vertical-align: inherit">
+                  <font style="vertical-align: inherit">Velog</font>
+                </font>
+              </p>
+            </div>
+            <div class="lists">
+              <a href="https://github.com/soejiwoo" target="_blank">
+                <img class="list_img" src="github.png" alt />
+              </a>
+              <p class="list_text">
+                <font style="vertical-align: inherit">
+                  <font style="vertical-align: inherit">Github</font>
+                </font>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
